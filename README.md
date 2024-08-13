@@ -1,32 +1,32 @@
 # roomraccoon
-RoomRaccoon technical Assessment
+**RoomRaccoon technical Assessment**
+
+This is a very simple MVC structured PHP system. The goal is to have it run on a locally without a need to connect to a server database. It primarily uses a sqlite database file that already has a few entries inside of it.
 
 File Structure:
+```
     /app
         /controllers
-            ShoppingListController.php
+            ShoppingListController.php  -->Controller for adding, editing and deleting items
         /models
-            ShoppingList.php
+            ShoppingList.php    -->Model that queries the database table
         /views
             shopping-list
-                index.php
-                edit.php
+                index.php   -->View that lists all the items
+                edit.php    -->View that allows the user to edit an item
+        database.db     -->database for easier access to local database
     /public
-        index.php
+        index.php   -->The main entry point to the system
     /config
-        config.php
+        config.php      -->Configuration file for basic config setup
     /core
-        Controller.php
-        Model.php
-        App.php
+        Controller.php  -->Core Controller that determines what Model and View to be used
+        Model.php   -->Core Model that makes the connection to our SQLite database
+        App.php     -->Core App file that determines the Routes/Url functions
+```
 
-- app/SQLite - database for easier access to local database
-- app/controllers/ShoppingListController - Controller for adding and editing items
-- app/models/ShoppingList - Model that queries the database table
-- app/views/shopping-list/edit.php - View that allows the user to edit an item
-- app/views/shopping-list/index.php - View that lists all the items
-- config/config.php - Configuration file for basic config setup
-- core/App.php - Core App file that determines the Routes/Url functions
-- core/Controller.php - Core Controller that determines what Model and View to be used
-- core/Model.php - Core Model that makes the connection to our SQLite database
-- public/index.php - The main entry point to the system
+## Requirements
+
+PHP 7 or above
+
+SQLite
