@@ -15,7 +15,7 @@ class App
         $controllerLocation = "";
 
         if (isset($url[0]) && $url[0] !== null) {
-            $controllerLocation = '../app/controllers/' . $url[0] . '.php';
+            $controllerLocation = '../app/controllers/{$url[0]}.php';
         }
 
         

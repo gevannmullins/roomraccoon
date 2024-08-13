@@ -1,6 +1,25 @@
 # roomraccoon
 RoomRaccoon technical Assessment
 
+File Structure:
+    /app
+        /controllers
+            ShoppingListController.php
+        /models
+            ShoppingList.php
+        /views
+            shopping-list
+                index.php
+                edit.php
+    /public
+        index.php
+    /config
+        config.php
+    /core
+        Controller.php
+        Model.php
+        App.php
+
 - app/SQLite - database for easier access to local database
 - app/controllers/ShoppingListController - Controller for adding and editing items
 - app/models/ShoppingList - Model that queries the database table
