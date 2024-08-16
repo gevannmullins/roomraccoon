@@ -30,3 +30,23 @@ File Structure:
 PHP 7 or above
 
 SQLite
+
+## Installation
+
+If you want to run the application locally, you can do so by cloning the repository to your local machine using the following command:
+```
+git clone https://github.com/gevannmullins/roomraccoon.git
+```
+### Option 1
+Open the public folder in your terminal or command prompt
+Enter the following command:
+```
+php -S localhost:9999
+```
+
+Please ensure that you have PHP running on your local machine before running the command.
+
+That's it. The application will run and you can add,edit,delete and check items.
+### Option 2
+Copy the directory into you localhost root directory and in your browser go to: "http://localhost/public"
+
