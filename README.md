@@ -48,5 +48,5 @@ Please ensure that you have PHP running on your local machine before running the
 
 That's it. The application will run and you can add,edit,delete and check items.
 ### Option 2
-Copy the directory into you localhost root directory and in your browser go to: "http://localhost/public"
+Copy the directory into you localhost root directory. Update the config/config.php to match your localhost directory and in your browser go to: "http://localhost/your-site/public"
 
